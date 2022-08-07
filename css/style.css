@@ -1,0 +1,40 @@
+:root {
+  --accent-color: #28a745;
+  --primary-text-color: #333333;
+  --secondary-text-color: #ffffff;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--primary-text-color);
+  background-color: #e5e5e5;
+  font-size: 18px;
+}
+/* utils */
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* hero */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 1.2;
+  text-align: center;
+  color: #e9e9e9;
+}
+
+.hero-text {
+  font-size: 22px;
+  line-height: 1.67;
+  text-align: center;
+  color: #e9e9e9;
+}
