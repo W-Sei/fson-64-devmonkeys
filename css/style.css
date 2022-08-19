@@ -95,3 +95,35 @@ body {
 }
 
 /* solutions */
+
+.solutions-text-top {
+  font-size: 20px;
+  line-height: 1.65;
+  color: var(--secondary-text-color);
+}
+
+.solutions-title {
+  font-size: 38px;
+  line-height: 1.26;
+  color: var(--secondary-text-color);
+}
+
+.solutions-text {
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+}
+
+.solutions-button {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+}
+
+.solutions-button:hover,
+.solutions-button:focus {
+  background-color: var(--hero-background-color);
+  color: var(--primary-text-color);
+}
+
+/* Business Cases */
+
+/* Руслан, далі ти :) */
