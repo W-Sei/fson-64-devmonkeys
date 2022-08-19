@@ -10,8 +10,11 @@ body {
   font-family: "Open Sans", sans-serif;
   color: var(--primary-text-color);
   background-color: var(--hero-background-color);
+  font-weight: 400;
   font-size: 18px;
 }
+
+/* Руслан, додавай бокси до кінця наявної CSS розмітки, будь-ласка :) */
 
 /* utils */
 
@@ -54,10 +57,10 @@ body {
 }
 
 .hero-title {
+  font-weight: 300;
   font-size: 55px;
   line-height: 1.2;
   text-align: center;
-
   color: var(--text-grey-color);
 }
 
@@ -103,6 +106,7 @@ body {
 }
 
 .solutions-title {
+  font-weight: 300;
   font-size: 38px;
   line-height: 1.26;
   color: var(--secondary-text-color);
@@ -125,5 +129,3 @@ body {
 }
 
 /* Business Cases */
-
-/* Руслан, далі ти :) */
