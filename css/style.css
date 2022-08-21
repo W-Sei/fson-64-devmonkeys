@@ -19,11 +19,13 @@ body {
 html {
   box-sizing: border-box;
 }
+
 *,
 *::after,
 *::before {
   box-sizing: inherit;
 }
+
 /* Стили для обнуления верхних отступов у элементов */
 h1,
 h2,
@@ -34,28 +36,67 @@ h6,
 p {
   margin: 0;
 }
+
 /* Класс для обнуления базовых свойств у списков (ul) */
 .list {
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
+
 /* Класс для обнуления базовых свойств у ссылок */
 .link {
   text-decoration: none;
   color: inherit;
 }
+
 /* Свойства для корректного отображения картинок */
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
+
 /* Свойства для обнуления курсива у address */
 
 address {
   font-style: normal;
 }
+
+.container {
+  width: 1360px;
+  padding-left: 28px;
+  padding-right: 28px;
+  margin: 0 auto;
+}
+
+/* header */
+
+.page-header {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.header-nav,
+.site-logo,
+.header-list {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  margin-right: 10px;
+}
+
+.logo-accent {
+  margin-right: 12px;
+}
+
+.header-list {
+  margin-left: auto;
+  gap: 38px;
+}
+
 
 /* hero */
 .hero-button,
@@ -78,8 +119,11 @@ address {
 }
 
 .header-nav-link {
+  display: inline-block;
   line-height: 1.56;
   color: var(--secondary-text-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* hero */
