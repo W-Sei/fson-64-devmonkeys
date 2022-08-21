@@ -160,6 +160,12 @@ address {
   color: var(--text-grey-color);
 }
 
+.hero-btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .hero-button {
   display: flex;
   align-items: center;
@@ -169,8 +175,10 @@ address {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
   border-radius: 5px;
-  width: 165px;
-  padding: 10px 30px;
+  min-width: 165px;
+  height: 48px;
+  padding: 0 10px;
+  /* padding: 10px 30px; */
   margin: 0 auto;
 }
 
