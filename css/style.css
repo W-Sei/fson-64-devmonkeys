@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: var(--primary-text-color);
   background-color: var(--hero-background-color);
   font-size: 18px;
@@ -97,8 +97,12 @@ address {
   gap: 38px;
 }
 
-
 /* hero */
+
+.hero {
+  padding-top: 256px;
+  padding-bottom: 284px;
+}
 .hero-button,
 .solutions-button,
 .contact-button {
@@ -133,6 +137,7 @@ address {
 }
 
 .hero-title {
+  margin-bottom: 45px;
   font-weight: 300;
   font-size: 55px;
   line-height: 1.2;
@@ -141,6 +146,7 @@ address {
 }
 
 .hero-text {
+  margin-bottom: 29px;
   font-size: 22px;
   line-height: 1.67;
   text-align: center;
