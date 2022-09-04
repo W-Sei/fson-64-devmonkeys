@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: var(--primary-text-color);
   background-color: var(--hero-background-color);
   font-size: 18px;
@@ -187,7 +187,7 @@ address {
 
 .header-nav-link:hover::after,
 .header-nav-link:focus::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -198,7 +198,7 @@ address {
 }
 
 .header-nav-link::after {
-  content: "";
+  content: '';
   display: block;
   transition: background-color var(--transition-function);
 }
@@ -209,9 +209,11 @@ address {
   padding-bottom: 284px;
   max-width: 1360px;
   margin: 0 auto;
-  background-image: linear-gradient(0deg,
+  background-image: linear-gradient(
+      0deg,
       rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)),
+      rgba(0, 0, 0, 0.4)
+    ),
     url(../images/hero/hero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -333,12 +335,13 @@ address {
 
 .solutions-button {
   color: var(--secondary-text-color);
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   border-radius: 5px;
   background-color: transparent;
   padding: 11px 27px 12px 47px;
   display: inline-block;
-  transition: color var(--transition-function), background-color var(--transition-function);
+  transition: color var(--transition-function),
+    background-color var(--transition-function);
 }
 
 .solutions-button:hover,
@@ -351,6 +354,7 @@ address {
 
 .cases {
   padding: 50px 0;
+  text-align: center;
 }
 
 .cases-list {
