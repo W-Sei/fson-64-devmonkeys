@@ -208,11 +208,9 @@ address {
   padding-bottom: 284px;
   max-width: 1360px;
   margin: 0 auto;
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ),
+      rgba(0, 0, 0, 0.4)),
     url(../images/hero/hero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -349,3 +347,24 @@ address {
 }
 
 /* Business Cases */
+
+.cases {
+  padding: 50px 0;
+}
+
+.cases-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 8px;
+  row-gap: 7px;
+  /* 
+  margin-right: -8px;
+  margin-bottom: -8px; */
+}
+
+.cases-list-item {
+  /* margin-right: 8px;
+  margin-bottom: 8px;
+  width: calc((100% - 40px) / 4); */
+  width: calc((100% - 24px) / 4);
+}
