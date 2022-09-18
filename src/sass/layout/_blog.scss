@@ -1,0 +1,26 @@
+.blog .container {
+  display: flex;
+  padding: 0;
+}
+
+.blog-wrapper {
+  padding: 84px 44px 84px 30px;
+  background-color: var(--accent-color-blue);
+}
+
+.blog-button {
+  color: var(--secondary-text-color);
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 11px 27px 12px 47px;
+  display: inline-block;
+  transition: color var(--transition-function),
+    background-color var(--transition-function);
+}
+
+.blog-button:hover,
+.blog-button:focus {
+  background-color: var(--hero-background-color);
+  color: var(--primary-text-color);
+}
