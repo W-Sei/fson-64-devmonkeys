@@ -508,6 +508,7 @@ address {
 
 .footer-text {
   color: var(--secondary-text-color);
+  margin-top: 10px;
 }
 
 .footer .icon-list {
