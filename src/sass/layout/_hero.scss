@@ -1,0 +1,74 @@
+.hero {
+  padding-top: 259px;
+  padding-bottom: 284px;
+  max-width: 1360px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../images/hero/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #2f303a;
+}
+
+.hero-button,
+.solutions-button,
+.contact-button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.hero-title {
+  margin-bottom: 45px;
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--text-grey-color);
+}
+
+.hero-text {
+  margin-bottom: 29px;
+  font-size: 22px;
+  line-height: 1.67;
+  text-align: center;
+  color: var(--text-grey-color);
+}
+
+.hero-btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.56;
+  text-align: center;
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+  border-radius: 5px;
+  min-width: 165px;
+  height: 48px;
+  padding: 0 10px;
+  margin: 0 auto;
+  transition: background-color var(--transition-function),
+    color var(--transition-function);
+}
+
+.hero-btn-icon {
+  margin-right: 4px;
+  fill: currentColor;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--primary-text-color);
+  background-color: var(--text-grey-color);
+}
