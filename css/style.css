@@ -445,3 +445,21 @@ address {
   top: 130px;
   left: 82.5px;
 }
+
+/* footer */
+
+.footer {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  background-color: var(--primary-text-color);
+}
+
+.footer-text {
+  color: var(--secondary-text-color);
+}
+
+.footer .icon-list {
+  display: flex;
+  justify-content: center;
+}
