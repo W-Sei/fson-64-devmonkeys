@@ -398,3 +398,50 @@ address {
   background-color: var(--hero-background-color);
   color: var(--primary-text-color);
 }
+
+/*  team */
+
+.team-container {
+  padding: 49px 30px 59px;
+  text-align: center;
+}
+
+.team-text {
+  margin-bottom: 11px;
+}
+
+.team-text-main {
+  margin-bottom: 45px;
+}
+
+.team-member {
+  margin-top: 11px;
+}
+
+.team-role {
+  margin-top: 12px;
+}
+
+.team-list {
+  display: flex;
+  gap: 15px;
+}
+
+.icon-list {
+  display: flex;
+  gap: 25px;
+}
+
+.icon-img {
+  max-width: 45px;
+}
+
+.team-item {
+  position: relative;
+}
+
+.team-icon-list {
+  position: absolute;
+  top: 130px;
+  left: 82.5px;
+}
