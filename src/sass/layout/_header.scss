@@ -1,8 +1,9 @@
 .page-header {
-  position: absolute;
+  position: fixed;
   width: 100%;
   padding-left: 50px;
   padding-right: 50px;
+  z-index: 1;
 }
 
 .header-nav,

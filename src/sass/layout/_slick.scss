@@ -1,0 +1,15 @@
+.post-title {
+  color: var(--secondary-text-color);
+  background-color: #5e5e5e;
+  height: 400px;
+  padding: 50px 200px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: tomato;
+}
+
+.slick-dots li.slick-active button:before {
+  color: red;
+}

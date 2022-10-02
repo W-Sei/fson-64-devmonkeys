@@ -1,6 +1,15 @@
 .cases {
   padding: 50px 0;
   text-align: center;
+
+  & .scale {
+    transition: transform 500ms linear;
+  }
+
+  & .scale:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
 }
 
 .cases-list {
@@ -12,4 +21,8 @@
 
 .cases-list-item {
   width: calc((100% - 24px) / 4);
+}
+
+.sl-wrapper {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 }
